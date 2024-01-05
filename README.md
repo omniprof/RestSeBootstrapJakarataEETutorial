@@ -1,6 +1,6 @@
 Embedded REST server with SeBootstrap
 
-The examples so far has shown REST services that will run on an application server such as GlassFish. There is an alternative to using such a heavyweight server and that is to use an embedded server that supports the REST API. This is the role of the SeBootstrap. The code for a service is unchanged from what is required for the application server. The difference is in using an embedded server.
+The examples so far have shown REST services that will run on an application server such as GlassFish. There is an alternative to using such a heavyweight server and that is to use an embedded server that supports the REST API. This is the role of the SeBootstrap. The code for a service is unchanged from what is required for the application server. The difference is in using an embedded server.
 You begin with a simple Maven or Gradle project. We will look at the Maven version. In whatever IDE you prefer, create a Maven based project for any type of desktop application such as a Console app, a JavaFX app, or Swing app. When we created a REST service on an application server the only dependency required in the Maven pom.xml file was:
 <dependencies>
     <dependency>
